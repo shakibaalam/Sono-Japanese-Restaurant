@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Banner from './components/Banner';
+import Contact from './components/Contact';
+import Events from './components/Events';
+import Exclusive from './components/Exclusive';
+import Footer from './components/Footer';
+import Gift from './components/Gift';
+import Map from './components/Map';
+import Teppanyaki from './components/Teppanyaki';
+import Tradition from './components/Tradition';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Banner></Banner>
+      <Tradition></Tradition>
+      <Teppanyaki></Teppanyaki>
+      <Events></Events>
+      <Gift></Gift>
+      <Exclusive></Exclusive>
+      <Contact></Contact>
+      <Map></Map>
+      <Footer></Footer>
     </div>
   );
 }

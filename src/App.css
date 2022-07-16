@@ -2,10 +2,16 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-img {
+  background-color: black;
+  background-image: radial-gradient(circle, transparent 22%, rgba(0, 0, 0, 0.05) 24%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.9) 70%),
+    url(https://www.sonorestaurant.com.au/wp-content/uploads/2016/08/Circles-Background-2000x1000-Gradient.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
