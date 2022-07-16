@@ -26,7 +26,7 @@ const Events = () => {
                             <img className=' w-3/4 mx-auto' src="https://www.sonorestaurant.com.au/wp-content/themes/sono/images/PaintStroke_Grey.png" alt="" />
 
                             <div className=' flex justify-center'>
-                                <h3 className=' lg:text-3xl  absolute lg:bottom-[136px] bottom-28 w-1/2 lg:w-3/4'>EXPERIENCE THE
+                                <h3 className=' lg:text-3xl md:text-3xl absolute lg:bottom-[136px] bottom-28 w-1/2 lg:w-3/4'>EXPERIENCE THE
                                     MEMORIES</h3>
                             </div>
 

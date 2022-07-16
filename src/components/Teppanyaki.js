@@ -53,7 +53,7 @@ const Teppanyaki = () => {
                         <div className='  text-center'>
                             <img src="" alt="" />
 
-                            <h3 className=' lg:text-3xl mx-auto mt-2'>EXPERIENCE THE <span style={{ backgroundImage: "url('https://www.sonorestaurant.com.au/wp-content/themes/sono/images/PaintStroke_Orange.png')" }}>EXCITEMENT</span></h3>
+                            <h3 className=' lg:text-3xl md:text-3xl mx-auto mt-2'>EXPERIENCE THE <span style={{ backgroundImage: "url('https://www.sonorestaurant.com.au/wp-content/themes/sono/images/PaintStroke_Orange.png')" }}>EXCITEMENT</span></h3>
 
                             <p className=' lg:text-lg lg:mt-10 mt-5 leading-tight'>Teppanyaki at Sono Saturday & Sunday Lunch, Friday & Saturday Dinner</p>
 

@@ -27,7 +27,7 @@ const Tradition = () => {
                         <div className=' relative text-center'>
                             <img src="https://www.sonorestaurant.com.au/wp-content/themes/sono/images/PaintStroke_Maroon.png" alt="" />
 
-                            <h3 className=' lg:text-3xl mx-auto absolute bottom-20'>EXPERIENCE THE TRADITION</h3>
+                            <h3 className=' lg:text-3xl md:text-3xl mx-auto absolute bottom-20'>EXPERIENCE THE TRADITION</h3>
 
                             <button className=' bg-secondary hover:opacity-90 text-white px-6 py-2 mt-10 uppercase '><a href="https://bookings.nowbookit.com/?accountid=eb5238ec-1924-4d63-bab0-c313658930e1&venueid=6839&theme=light&colors=hex,3e2723&font=Arimo">Book now</a></button>
                         </div>

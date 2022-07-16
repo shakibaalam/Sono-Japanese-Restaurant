@@ -26,7 +26,7 @@ const Exclusive = () => {
                             <img className=' w-3/4 mx-auto' src="https://www.sonorestaurant.com.au/wp-content/themes/sono/images/PaintStroke_Orange.png" alt="" />
 
                             <div className=' flex justify-center'>
-                                <h3 className=' lg:text-3xl  absolute bottom-32 lg:bottom-[136px] w-1/2 lg:w-3/4'>SONO SAKURU
+                                <h3 className=' lg:text-3xl md:text-3xl absolute bottom-32 lg:bottom-[136px] w-1/2 lg:w-3/4'>SONO SAKURU
                                     LOYALTY PROGRAM</h3>
                             </div>
 

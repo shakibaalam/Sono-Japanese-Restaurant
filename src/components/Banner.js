@@ -25,14 +25,14 @@ const Banner = () => {
                     <li><a href="https://bookings.nowbookit.com/?accountid=eb5238ec-1924-4d63-bab0-c313658930e1&venueid=6839&theme=light&colors=hex,3e2723&font=Arimo">RESERVATIONS</a></li>
                 </nav>
                 <div className='my-44'>
-                    <img className=' lg:w-96 w-44 mx-auto mb-6' src="https://www.sonorestaurant.com.au/wp-content/uploads/2016/08/Sono_Logo.png" alt="" />
+                    <img className=' lg:w-96 md:w-80 w-44 mx-auto mb-6' src="https://www.sonorestaurant.com.au/wp-content/uploads/2016/08/Sono_Logo.png" alt="" />
 
 
                     <div className=' border-primary border-2 bg-primary w-1/2 mx-auto '></div>
 
                     <h1 className=' text-center mt-6 text-4xl'>PORTSIDE <br /> WHARF</h1>
                 </div>
-                <div className='lg:hidden  '>
+                <div className='lg:hidden '>
                 <svg class="animate-bounce w-28 h-28 mx-auto">
                   <FiChevronDown className=' text-5xl'/>
                 </svg>
@@ -40,7 +40,7 @@ const Banner = () => {
             </div>
             <div className=' bg-img h-[50vh] pt-24'>
                 <div id='menu' className=' text-center cursor-pointer'>
-                    <h1 className=' lg:text-4xl mb-10'>EXPERIENCE THE TRUE TASTE OF TRADITION</h1>
+                    <h1 className=' lg:text-4xl md:text-3xl mb-10'>EXPERIENCE THE TRUE TASTE OF TRADITION</h1>
                     <div className=' grid lg:grid-cols-4 grid-cols-1 lg:mx-24 gap-8 lg:gap-0'>
                         {
                             menu.map(m => <div key={m.id} className={m.boundary ? "lg:border-primary lg:border-r-2" : ""}>

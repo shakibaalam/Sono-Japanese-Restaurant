@@ -26,7 +26,7 @@ const Gift = () => {
                                 <img className=' w-3/4 mx-auto' src="https://www.sonorestaurant.com.au/wp-content/themes/sono/images/PaintStroke_Purple.png" alt="" />
 
                                 <div className='flex justify-center'>
-                                    <h3 className=' lg:text-3xl  absolute lg:bottom-[156px] bottom-40  lg:w-3/4 w-1/2'>SHARE THE
+                                    <h3 className=' lg:text-3xl  md:text-3xl absolute lg:bottom-[156px] bottom-40  lg:w-3/4 w-1/2'>SHARE THE
                                         EXPERIENCE</h3>
                                 </div>
 
